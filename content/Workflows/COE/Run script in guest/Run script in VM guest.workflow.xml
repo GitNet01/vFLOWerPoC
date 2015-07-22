@@ -6,7 +6,7 @@
 Run a script in a guest using existing script configurations. Replaces variables in the script. Optionaly copy additional file and replace its variables as well.
 
 If no working directory is specified:
-- it is set to the guest default temp directory if there is a resource file copied
+- it is set to the guest default temp directory if there is a resource file copied adding not needed line
 - it is set to default (c:\windows\system32 for Windows /root for Linux) if there is no resource file copied.
     </description>
 
